@@ -9,7 +9,7 @@ s3 = boto3.client("s3")
 
 # Resource Names
 DYNAMO_TABLE = "stock-market-data"
-S3_BUCKET = "(YOUR-BUCKET-NAME)"
+S3_BUCKET = "<YOUR-BUCKET-NAME>" 
 
 # Table reference
 table = dynamodb.Table(DYNAMO_TABLE)
